@@ -1,0 +1,170 @@
+*,
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.fContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 1400px;
+    height: 80px;
+    background-color: black;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: crimson;
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+}
+
+.navigation>li>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.banner>h2 {
+    color: white;
+    padding: 20px 25px;
+    border: 3px solid;
+}
+
+.list-header h2 {
+    margin-top: 0px;
+    font-style: inherit;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.list-student ul {
+    position: relative;
+    width: 475px;
+    margin: 20px auto 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.list-student li {
+    display: flex;
+    background: lightgray;
+    padding: 10px 10px;
+    color: black;
+    margin: 5px 0;
+    transition: .5s;
+}
+
+.list-student a {
+    color: black;
+}
+
+.list-student li:nth-child(1) {
+    background: gold;
+}
+
+.list-student li span:nth-child(1) {
+    width: 30px;
+}
+
+.list-student li span:nth-child(2) {
+    width: 200px;
+}
+
+.list-student li span:nth-child(3) {
+    width: 175px;
+}
+
+.list-student li:hover {
+    transform: scale(1.05);
+    background: gold;
+}
+
+.denah {
+    position: relative;
+}
+
+.denah h2 {
+    text-align: center;
+    font-style: initial;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.denah img {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    height: 250px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+    background-color: black;
+}
+
+footer a {
+    justify-items: normal;
+    color: red;
+    border: 2px 2px 2px solid white;
+    display: block;
+}
