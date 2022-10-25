@@ -144,13 +144,13 @@ section h3 {
     font-size: 12px;
 }
 
-.box a {
-    color: black;
+.link-act a {
+    color: white;
     margin-top: 5px;
-    padding: 3px;
-    background-color: lightskyblue;
+    padding: 2px;
+    background-color: black;
     border: 3px solid black;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 @media (max-width:770px) {
