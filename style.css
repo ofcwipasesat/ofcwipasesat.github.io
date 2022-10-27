@@ -16,7 +16,7 @@
         justify-content: space-between;
         align-items: center;
         font-size: 20px;
-        padding: 20px;
+        padding: 15px;
         width: 1400px;
         height: 80px;
         background-color: black;
@@ -190,7 +190,7 @@
         color: white;
         display: inline-block;
         justify-content: space-evenly;
-        padding: 5px;
+        padding: 2px;
     }
     
     .contents h3 {
@@ -280,6 +280,13 @@
         text-align: center;
     }
     
+    .slider-header h2 {
+        padding-top: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-family: initial;
+    }
+    
     .slide-help {
         color: black;
         font-size: 18px;
@@ -302,15 +309,15 @@
     }
     
     .slide div:nth-child(1) div {
-        background-color: lightyellow;
+        background-color: pink;
     }
     
     .slide div:nth-child(2) div {
-        background-color: lightyellow;
+        background-color: lightgreen;
     }
     
     .slide div:nth-child(3) div {
-        background-color: lightyellow;
+        background-color: lightblue;
     }
     
     .slide div:nth-child(1) {
@@ -322,27 +329,24 @@
             margin-top: -270px;
         }
         5% {
-            margin-top: -205px;
+            margin-top: -200px;
         }
-        25% {
-            margin-top: -205px;
+        6% {
+            margin-top: -200px;
+        }
+        10% {
+            margin-top: -135px;
         }
         30% {
             margin-top: -135px;
         }
-        50% {
-            margin-top: -135px;
-        }
-        55% {
-            margin-top: -58px;
+        35% {
+            margin-top: -60px;
         }
         75% {
-            margin-top: -58px;
+            margin-top: -60px;
         }
         80% {
-            margin-top: 0px;
-        }
-        100% {
             margin-top: 0px;
         }
         99.99% {
