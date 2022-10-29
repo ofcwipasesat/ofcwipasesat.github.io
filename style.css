@@ -42,6 +42,13 @@
         padding-left: 3px;
     }
     
+    #clock {
+        color: crimson;
+        padding: 2px;
+        border: 2px solid crimson;
+        margin-right: 15px;
+    }
+    
     .navigation {
         display: flex;
         justify-content: center;
