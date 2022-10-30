@@ -43,6 +43,8 @@
     }
     
     .clock-wrapper {
+        justify-content: center;
+        text-align: center;
         background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
         font-weight: bold;
         border-radius: 10px;
@@ -50,13 +52,12 @@
     }
     
     .display {
-        padding: 3px;
-        background: black;
-        margin: 3px;
+        margin: 10px;
     }
     
     #clock {
-        background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+        font-size: 30px;
+        background: black;
         font-weight: bold;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
