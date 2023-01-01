@@ -94,7 +94,7 @@ section h3 {
 .contents h3 {
     text-align: center;
     justify-content: center;
-    background: linear-gradient(135deg, #87CACD, #E3D3D2, #BF1911);
+    background: linear-gradient(135deg, #FFFFFF, #FF7E7E, #FFFFFF);
     border-top: 2px solid;
     border-bottom: 2px solid;
     animation: contents  1.5s linear infinite;
@@ -168,90 +168,6 @@ section h3 {
     }
 }
 
-.wrapper-achievment {
-    padding: 2% 10%;
-    padding-bottom: 0px;
-    text-transform: capitalize;
-    font-family: initial;
-}
-
-.wrapper-achievment h3 {
-    text-align: center;
-    justify-content: center;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    font-style: initial;
-}
-
-.achievment-content {
-    display: grid;
-    gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-}
-
-.box-achievment {
-    height: 250px;
-    padding: 0px;
-    text-align: center;
-    border: 2px solid;
-    border-radius: 5px;
-    background: lightblue;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.box-achievment h6 {
-    font-size: 10px;
-    padding-top: 0px;
-}
-
-.box-achievment img {
-    height: 70px;
-}
-
-.box-achievment img:hover {
-    transform: scale(1.1);
-}
-
-.box-achievment h4 {
-    color: black;
-    padding: 0px 0;
-    font-size: 15px;
-}
-
-.box-achievment p {
-    color: black;
-    font-size: 12px;
-    line-height: 0.0;
-}
-
-@media (max-width:770px) {
-    .wrapper-achievment {
-        padding: 0px;
-    }
-}
-
-.btn-achievment {
-    color: white;
-    border: 2px solid;
-    outline: none;
-    font-size: 13px;
-    margin-top: 3px;
-    padding: 5px 18px;
-    background: black;
-    border-radius: 3px;
-    display: inline-block;
-    text-decoration: none;
-}
-
-.btn-achievment:hover {
-    letter-spacing: 1px;
-}
-
-.btn-achievment:hover {
-    transform: scale(1.03);
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
-}
-
 .top-topic h2 {
     margin-bottom: 10px;
     margin-top: 20px;
@@ -260,7 +176,7 @@ section h3 {
     text-align: center;
     font-weight: bold;
     font-family: initial;
-    background: linear-gradient(135deg, #87CACD, #E3D3D2, #BF1911);
+    background: linear-gradient(135deg, #fff   , #FF7E7E , #FFFFFF );
     animation: contents  1.5s linear infinite;
 }
 
