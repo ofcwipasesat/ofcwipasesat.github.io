@@ -121,7 +121,6 @@ section h3 {
 
 .box {
     height: 250px;
-    padding: 0px;
     text-align: center;
     border-radius: 5px;
     background: lightskyblue;
@@ -143,7 +142,7 @@ section h3 {
 
 .box h4 {
     color: black;
-    padding: 0px 0;
+    padding: 0px;
     font-size: 15px;
 }
 
