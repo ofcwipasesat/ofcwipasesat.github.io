@@ -49,12 +49,12 @@
 
 .navigation>li {
     list-style-type: none;
-    padding: 15px;
+    padding: 10px;
 }
 
 .navigation>li>a {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
 }
 

@@ -54,7 +54,7 @@
 
 .navigation>li>a {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ section {
 
 .list-student ul {
     position: relative;
-    width: 310px;
+    width: 315px;
     margin: 0px auto 0;
     padding: 0px;
     box-sizing: border-box;
