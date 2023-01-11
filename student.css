@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     font-size: 25px;
-    padding: 15px;
+    padding: 0px;
     text-transform: capitalize;
 }
 
@@ -49,7 +49,7 @@
 
 .navigation>li {
     list-style-type: none;
-    padding: 5px;
+    padding: 10px;
 }
 
 .navigation>li>a {
@@ -95,7 +95,7 @@ section {
 
 .list-student ul {
     position: relative;
-    width: 400px;
+    width: 325px;
     margin: 0px auto 0;
     padding: 0px;
     box-sizing: border-box;
