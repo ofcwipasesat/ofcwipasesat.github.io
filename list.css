@@ -233,10 +233,11 @@ section h3 {
 .box img {
     padding: 10px;
     height: 75px;
+    transition: transform .3s ease;
 }
 
 .box img:hover {
-    transform: scale(2.0);
+    transform: scale(1.5);
 }
 
 .box h4 {
@@ -252,13 +253,22 @@ section h3 {
 }
 
 .link-act a {
-    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    color: black;
     margin-top: 5px;
-    padding: 2px;
-    background-color: black;
+    padding: 5px;
+    background-color: lightskyblue;
     border: 3px solid black;
     font-size: 13px;
     text-decoration: none;
+    transition: ease 0.5s;
+}
+
+.link-act a:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold, 0 0 80px gold;
 }
 
 @media (max-width:770px) {
