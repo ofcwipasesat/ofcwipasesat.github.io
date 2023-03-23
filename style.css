@@ -124,26 +124,6 @@
         padding-top: 50px;
     }
     
-    .countdown-wrapper {
-        border-radius: 15px;
-        margin: 20px;
-        padding: 10px;
-        text-align: center;
-        justify-content: center;
-        background: #ffeb3b;
-    }
-    
-    .countdown-wrapper p {
-        font-size: 25px;
-        font-weight: bold;
-    }
-    
-    #countdown {
-        text-align: center;
-        font-size: 25px;
-        font-weight: bold;
-    }
-    
     #check {
         display: none;
     }
