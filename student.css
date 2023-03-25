@@ -77,6 +77,41 @@ body {
     border-radius: 100px;
 }
 
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .menu li {
+        margin: 10px 0;
+    }
+}
+
 .sidebar li a {
     height: 100%;
     width: 100%;
@@ -122,6 +157,12 @@ body {
     color: gold;
     padding-left: 30px;
     padding-top: 50px;
+}
+
+@media (min-width: 769px) {
+    label {
+        display: none;
+    }
 }
 
 #check {
@@ -191,7 +232,7 @@ section {
 
 .list-student ul {
     position: relative;
-    width: 315px;
+    width: 320px;
     margin: 0px auto 0;
     padding: 0px;
     box-sizing: border-box;
@@ -229,6 +270,56 @@ section {
 .list-student li:hover {
     transform: scale(1.05);
     background: gold;
+}
+
+.other-header h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: initial;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.other-items-1 {
+    position: relative;
+    width: 320px;
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.other-items-1 h3 {
+    text-decoration: underline;
+}
+
+.other-items-1 ul {
+    display: flex;
+    list-style: none;
+    background: lightgray;
+    padding: 10px 10px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.list-about ul {
+    padding: 5px;
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-about i {
+    color: green;
+}
+
+.list-name ul {
+    font-size: 15px;
+    border: 3px solid green;
+    list-style-type: none;
 }
 
 .denah {

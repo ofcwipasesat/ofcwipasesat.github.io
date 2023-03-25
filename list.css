@@ -77,6 +77,41 @@ body {
     border-radius: 100px;
 }
 
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .menu li {
+        margin: 10px 0;
+    }
+}
+
 .sidebar li a {
     height: 100%;
     width: 100%;
@@ -122,6 +157,12 @@ body {
     color: gold;
     padding-left: 30px;
     padding-top: 50px;
+}
+
+@media (min-width: 769px) {
+    label {
+        display: none;
+    }
 }
 
 #check {
