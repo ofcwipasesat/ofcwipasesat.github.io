@@ -77,6 +77,29 @@ body {
     border-radius: 100px;
 }
 
+.landing-page {
+    background-image: url('Gallery/landingPage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.landing-page h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.landing-page p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 .menu {
     display: flex;
     list-style: none;
@@ -211,33 +234,6 @@ label #cancel {
     right: 195px;
 }
 
-.clock-wrapper {
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
-    font-weight: bold;
-    border-radius: 10px;
-    animation: clock 1.5s linear infinite;
-}
-
-.display {
-    margin: 10px;
-}
-
-#clock {
-    font-size: 30px;
-    background: black;
-    font-weight: bold;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-@keyframes clock {
-    100% {
-        filter: hue-rotate(360deg);
-    }
-}
-
 .banner {
     background-image: url(Gallery/banner3.jfif);
     height: 40vh;
@@ -321,10 +317,16 @@ section h3 {
     width: 100%;
 }
 
+.about {
+    background-color: #03040B;
+}
+
 .about p {
-    color: gray;
-    display: flex;
     text-align: center;
+}
+
+.container p {
+    color: white;
 }
 
 .about h4 {
@@ -333,13 +335,46 @@ section h3 {
     font-family: initial;
 }
 
-.about ul {
-    background-color: lightcyan;
-    list-style-type: none;
-    font-size: 15px;
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex-basis: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    border: 2px solid;
-    border-radius: 2px;
+}
+
+.card i {
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 footer {
@@ -436,7 +471,7 @@ footer a:hover {
     text-decoration: none;
     color: white;
     font-style: initial;
-    margin-top: 0px;
+    margin-top: 10px;
     padding: 3px;
     background-color: black;
     border: 2px solid white;
@@ -461,8 +496,8 @@ footer a:hover {
     text-align: center;
 }
 
-.slider-header h2 {
-    padding-top: 10px;
+.slider-header {
+    padding-top: 15px;
     text-align: center;
     font-weight: bold;
     font-family: initial;
