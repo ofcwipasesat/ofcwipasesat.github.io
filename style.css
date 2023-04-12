@@ -1,6 +1,7 @@
 *,
 html,
 body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -133,6 +134,14 @@ body {
     .menu li {
         margin: 10px 0;
     }
+}
+
+#dark-mode {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .sidebar li a {
@@ -272,6 +281,40 @@ section h3 {
     color: red;
 }
 
+.anonym-chat {
+    height: 15vh;
+    background-color: #03040B;
+}
+
+.anonym-chat-text {
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+.anonym-chat-link a {
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    max-width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    border: white 2px solid;
+    background-color: transparent;
+    transition: ease .2s;
+}
+
+.anonym-chat-link a:hover {
+    background-color: white;
+    color: black;
+}
+
 .slider {
     width: 85vmin;
     position: relative;
@@ -323,6 +366,8 @@ section h3 {
 
 .about p {
     text-align: center;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 .container p {
